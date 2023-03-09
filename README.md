@@ -34,6 +34,18 @@ npm install --save styled-components
 Deletar assets em src e deletar o svg em public pq eles ocupam espaco na pagina
 apaga tudo dentro de App.jsx exceto a funcao app e o export do final
 
+Cria uma pasta styles dentro de src e cria 2 JS global e theme.js
+
+Criar uma pasta Pages com a pagina App (e aqui vai outras paginas do seu site) com index.jsx e styles.js
+
+Configurar letra no index.html (importar fontes)
+
+Importar o style global.js no main.jsx (import {App} from './Pages/App';) e criar a tag (<GlobalStyle />)
+
+Importar a pagina principal dentro de App (import {App} from './Pages/App')
+
+Criar o provider (ThemesProvider) do styled_component para prover ao global.js e, portanto, ao main.jsx para prover o que tem dentro do arquivo (temas)para a aplicacao toda. TEM QUE EMBRULHAR TUDO QUE TIVER DENTRO DA SUA APLICACAO NO PROVIDER
+
 
 
 
